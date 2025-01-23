@@ -1,0 +1,102 @@
+/* Reset and Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .light-yellow {
+    background-color: #fef6e4;
+  }
+  
+  .purple {
+    background-color: #9f87ff;
+    color: white;
+  }
+  
+  .white {
+    background-color: #ffffff;
+  }
+  
+  .card h2, .card h1 {
+    margin-bottom: 10px;
+  }
+  
+  .card h1 .highlight, .card h2 .highlight {
+    color: #ffdd57;
+  }
+  
+  /* Button */
+  button {
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Special Styles */
+  .ai-chat {
+    background-color: #fff8dc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .followers {
+    color: #ff6347;
+    font-weight: bold;
+  }
+  
+  .schedule ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+  }
+  
+  .schedule ul li {
+    font-size: 24px;
+  }
+  
+  .chart {
+    text-align: center;
+  }
+  
+  .bars {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .bar {
+    width: 20px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .bar.active {
+    background-color: #ffdd57;
+  }
+  
+  .growth {
+    color: #57ff8c;
+    font-weight: bold;
+  }
+  
